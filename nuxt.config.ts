@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBaseUrl: process.env.API_BASE_URL || 'https://api.zcondo.com.br', //'https://api.zcondo.com.br' 'http://localhost:5000' 'https://localhost:7275'
+      apiBaseUrl: 'https://api.zcondo.com.br', //'https://api.zcondo.com.br' 'http://localhost:5000' 'https://localhost:7275'
     }
   },
   typescript: {
